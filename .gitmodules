@@ -1,0 +1,3 @@
+[submodule "ThirdParty/darknet"]
+	path = ThirdParty/darknet
+	url = https://github.com/fmrico/darknet.git
