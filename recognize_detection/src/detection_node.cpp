@@ -61,7 +61,7 @@ class ImageDetector
     : nh_("~"),
       it_(nh_),
       seq_(0),
-      detection_threshold_( 0.8)
+      detection_threshold_(0.8)
     {
       // Default values
       std::string pkgpath = ros::package::getPath("recognize_core_libs");

@@ -49,7 +49,8 @@ void drawBB(ImageDetectionInfo* image_detection_info, const Labels& labels)
 {
   for (unsigned int i = 0; i < image_detection_info->bounding_boxes.size(); i++)
   {
-    cv::Rect dst_rect_roi(cv::Point2i(image_detection_info->bounding_boxes[i].x, image_detection_info->bounding_boxes[i].y),
+    cv::Rect dst_rect_roi(cv::Point2i(image_detection_info->bounding_boxes[i].x,
+      image_detection_info->bounding_boxes[i].y),
       cv::Size2i(image_detection_info->bounding_boxes[i].w, image_detection_info->bounding_boxes[i].h));
 
     putText(image_detection_info->image, labels.get_label(image_detection_info->bounding_boxes[i].obj_id) +
