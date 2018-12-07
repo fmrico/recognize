@@ -2,8 +2,8 @@
 
 [![Build Status](https://travis-ci.com/fmrico/recognize.svg?branch=master)](https://travis-ci.com/fmrico/recognize)
 
-Author: Francisco Martín Rico fmrico@gmail.com (Intelligent Robotics Lab URJC)
-License: BSD
+- Author: Francisco Martín Rico fmrico@gmail.com (Intelligent Robotics Lab URJC)
+- License: BSD
 
 ## Requirements
 
